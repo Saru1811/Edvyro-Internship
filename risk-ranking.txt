@@ -1,0 +1,74 @@
+Task 1: Threat Model and Secure Configuration
+
+Step 3: Risk Ranking
+
+Application: Login Web Application
+
+Objective:
+To prioritize the potential threats identified in Step 2 based on likelihood and impact.
+
+Scoring method:
+Likelihood: 1 = Low, 2 = Medium, 3 = High
+Impact:     1 = Low, 2 = Medium, 3 = High
+Risk Score = Likelihood x Impact
+
+Risk levels:
+1-2 = Low
+3-4 = Medium
+6-9 = High
+
+Risk Register
+
+1. Spoofing
+Threat: An attacker uses stolen login credentials.
+Likelihood: 3 (High)
+Impact: 3 (High)
+Risk score: 9
+Risk level: High
+Reason: Compromised credentials may allow unauthorized account access.
+
+2. Tampering
+Threat: An attacker modifies user data without authorization.
+Likelihood: 2 (Medium)
+Impact: 3 (High)
+Risk score: 6
+Risk level: High
+Reason: Unauthorized changes may affect data integrity.
+
+3. Repudiation
+Threat: Insufficient audit logs make user actions difficult to trace.
+Likelihood: 2 (Medium)
+Impact: 2 (Medium)
+Risk score: 4
+Risk level: Medium
+Reason: Missing logs can make investigations and accountability difficult.
+
+4. Information Disclosure
+Threat: Personal information is exposed to unauthorized users.
+Likelihood: 2 (Medium)
+Impact: 3 (High)
+Risk score: 6
+Risk level: High
+Reason: Exposure may harm user privacy and confidentiality.
+
+5. Denial of Service (DoS)
+Threat: Excessive requests overwhelm the login server.
+Likelihood: 2 (Medium)
+Impact: 3 (High)
+Risk score: 6
+Risk level: High
+Reason: The application may become unavailable to legitimate users.
+
+6. Elevation of Privilege
+Threat: A normal user gains unauthorized administrator access.
+Likelihood: 2 (Medium)
+Impact: 3 (High)
+Risk score: 6
+Risk level: High
+Reason: Unauthorized admin access could allow sensitive actions.
+
+Conclusion:
+Based on this illustrative assessment, spoofing is prioritized as High risk. Tampering, information disclosure, denial of service, and elevation of privilege are also High risk. Repudiation is Medium risk. These ratings are estimates for a sample login application and should be updated if actual application details or evidence become available.
+
+Note:
+Likelihood and impact scores are illustrative assumptions, not measured findings from a real application.

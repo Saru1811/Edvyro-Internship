@@ -1,0 +1,40 @@
+Task 1: Threat Model and Secure Configuration
+
+Step 2: STRIDE Threat Analysis
+
+Application: Login Web Application
+
+Objective:
+To identify potential security threats affecting the user, web application, database, and external email service.
+
+STRIDE Threat Analysis
+
+1. Spoofing
+Potential threat: An attacker uses stolen login credentials.
+Possible impact: Unauthorized account access.
+
+2. Tampering
+Potential threat: An attacker modifies user data without authorization.
+Possible impact: Data integrity loss.
+
+3. Repudiation
+Potential threat: Insufficient audit logs make user actions difficult to trace.
+Possible impact: Accountability issues.
+
+4. Information Disclosure
+Potential threat: Personal information is exposed to unauthorized users.
+Possible impact: Privacy and confidentiality loss.
+
+5. Denial of Service (DoS)
+Potential threat: Excessive requests overwhelm the login server.
+Possible impact: Service interruption.
+
+6. Elevation of Privilege
+Potential threat: A normal user gains unauthorized administrator access.
+Possible impact: Unauthorized privileged actions.
+
+Conclusion:
+The STRIDE method helps identify security threats systematically. These threats will be assessed by likelihood and impact in Step 3, and suitable defensive controls will be recommended in the hardening checklist.
+
+Note:
+These are potential threats for an example login web application, not confirmed vulnerabilities in a real system.
