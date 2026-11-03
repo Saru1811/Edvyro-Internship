@@ -1,0 +1,1 @@
+Security Log Investigation using Python. Analyzed synthetic authentication logs to identify suspicious login activities, possible password spraying, brute-force attempts, and unusual access patterns. Normalized log data, created detection rules, reconstructed an incident timeline, and prepared an investigation report as part of the EdVyro Virtual Cyber Security Internship.
